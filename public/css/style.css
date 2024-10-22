@@ -121,3 +121,30 @@ body{
     display:flex;
     
 }
+
+/* Default navbar styles */
+.navbar {
+    background-color: white; /* Your default background color */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    /* Apply pink background when navbar is expanded */
+    .navbar-collapse.show {
+      background-color: rgb(243, 236, 237); /* Pink background when dropdown is active */
+    }
+    
+    /* Ensure links inside the navbar remain visible with contrast */
+    .navbar-nav .nav-link {
+      color: white; /* Change link color for better contrast */
+    }
+  
+    /* Optional: If you want to keep the navbar-toggler (hamburger icon) dark */
+    .navbar-toggler {
+      color: black;
+    }
+  }
+  
+
+
+  
